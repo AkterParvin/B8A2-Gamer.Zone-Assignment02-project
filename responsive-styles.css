@@ -1,0 +1,118 @@
+
+/* small device responsive  */
+@media screen and (max-width:400px) {
+    
+    .nav-container {
+        flex-direction: column;
+       
+    }
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .menu{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    
+}
+
+/* Medium Device  */
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    .nav-container {
+        flex-direction: column;
+       
+    }
+    .logo{
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .menu{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+
+
+    
+}
+
+
+
+
+
+/* tabloid device  */
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .nav-container {
+        flex-direction: column;
+       
+    }
+    .logo{
+        width: 30%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .menu{
+
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* big devices  */
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .nav-container {
+        flex-direction: column;
+       
+    }
+    .logo{
+        width: 20%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .menu{
+
+        width: 50%;
+        margin: 0 auto;
+       
+    }
+
+
+
+
+}
