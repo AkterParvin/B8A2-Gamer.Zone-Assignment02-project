@@ -87,7 +87,8 @@
     }
 
     /* Instant Play Section  */
-    .instant-play-text {
+    .instant-play-text,
+    .anytime-text {
         width: 90%;
         height: auto;
         margin: 0 auto;
@@ -119,7 +120,14 @@
 
 
     }
+   
+    /* career-section starts  */
 
+
+
+
+
+    /* icon-section starts here  */
    
   
 
@@ -240,7 +248,8 @@
     }
 
     /* Instant Play Section  */
-    .instant-play-text {
+    .instant-play-text,
+    .anytime-text {
         width: 90%;
         height: auto;
         margin: 0 auto;
@@ -272,6 +281,16 @@
         gap: 80px;
 
     }
+    /* career-section starts  */
+
+
+
+
+
+
+
+
+    /* icon-section starts here  */
 
 
 
@@ -395,7 +414,8 @@
         gap: 80px;
     }
 
-    .instant-play-text {
+    .instant-play-text,
+    .anytime-text {
         width: 80%;
         height: auto;
         margin: 0 auto;
@@ -417,6 +437,25 @@
         gap: 80px;
 
     }
+    .anytime-text{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+     
+
+    }
+    /* career-section starts  */
+
+
+
+
+
+
+
+
+    /* icon-section starts here  */
 
    
 
@@ -522,7 +561,8 @@
     }
 
     /* Instant Play Section */
-    .instant-play-text {
+    .instant-play-text,
+    .anytime-text {
         width: 50%;
         height: auto;
         margin: 0 auto;
@@ -539,7 +579,13 @@
 
     /* anytime section starts  */
 
+    /* career-section starts  */
 
+
+
+
+
+    /* icon-section starts here  */
 
 
 
