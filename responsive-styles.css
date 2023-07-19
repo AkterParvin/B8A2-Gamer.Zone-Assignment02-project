@@ -120,7 +120,7 @@
 
 
     }
-   
+
     /* career-section starts  */
 
 
@@ -128,8 +128,32 @@
 
 
     /* icon-section starts here  */
-   
-  
+
+    /* footer section part  */
+    footer {
+        padding: 50px;
+    }
+    .logo>h2 {
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 700;
+    
+    }
+    
+    .footer-story,
+    .footer-policy {
+        flex-direction: column;
+        
+        margin-top: 40px;
+    }
+    .footer-favicons{
+        gap: 5px;
+    }
+    .footer-favicons>i {
+        padding: 5px;
+
+    }
+
 
 
 
@@ -271,7 +295,7 @@
     }
 
     /* anytime section starts  */
-    
+
 
     .anytime-container {
         flex-direction: column;
@@ -281,6 +305,7 @@
         gap: 80px;
 
     }
+
     /* career-section starts  */
 
 
@@ -437,15 +462,17 @@
         gap: 80px;
 
     }
-    .anytime-text{
+
+    .anytime-text {
         width: 80%;
         height: auto;
         margin: 0 auto;
         text-align: center;
         padding: 20px;
-     
+
 
     }
+
     /* career-section starts  */
 
 
@@ -457,7 +484,7 @@
 
     /* icon-section starts here  */
 
-   
+
 
 
 

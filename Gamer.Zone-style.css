@@ -28,7 +28,8 @@
 .gamer-container,
 .instant-play,
 .anytime-container,
-.main-icon-div {
+.main-icon-div,
+.footer-container {
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -463,7 +464,7 @@ nav {
 /* icon-section starts here  */
 .icon-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 80px ;
+    padding: 80px;
 
 }
 
@@ -477,7 +478,8 @@ nav {
     flex-wrap: wrap;
 
 }
-.icon-container{
+
+.icon-container {
     flex-basis: 200px;
 }
 
@@ -513,4 +515,55 @@ nav {
     border: 2px solid #F948B2;
 }
 
-.main-icon-div {}
+/* footer section begins  */
+footer {
+    background-color: #0B0223;
+    height: auto;
+    padding: 100px;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.logo>h2 {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.footer-story,
+.footer-favicons,
+.footer-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-story>h1 {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+
+}
+
+.footer-favicons>i {
+    color: #FFF;
+    font-size: 2rem;
+    padding: 20px;
+
+}
+
+.footer-policy>h3,
+.f-para {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+
+}
