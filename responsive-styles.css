@@ -1,6 +1,6 @@
 
 /* small device responsive  */
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
     
     .nav-container {
         flex-direction: column;
@@ -16,13 +16,44 @@
         margin: 0 auto;
         flex-direction: column;
     }
-    
+    /* banner section  */
+
+    .banner-container{
+        flex-direction: column-reverse;
+
+    }
+    .main-title{
+        font-size: 3rem;
+
+    }
+    .banner-text,.banner-imgs{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        background-position: left; 
+        background-size: contain;  
+        text-align: center;
+       
+    }
+    .banner-text{
+        object-fit: cover;
+
+    }
+    .banner-imgs>img{
+        object-fit: cover;
+
+    }
+    .sub-title{
+        font-size:2rem ;
+
+    }
     
 }
 
 /* Medium Device  */
 
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:576px) and (max-width:700px) {
     .nav-container {
         flex-direction: column;
        
@@ -48,7 +79,7 @@
 
 
 /* tabloid device  */
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:700px) and (max-width:1024px) {
     .nav-container {
         flex-direction: column;
        
