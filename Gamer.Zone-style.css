@@ -72,6 +72,12 @@ nav {
     gap: 5px;
 
 }
+.logo :hover{
+    transform: rotate(20deg) scale(1.2);
+    transition: .3s ease-in-out;
+    color: #8758F1;
+    cursor: pointer;
+}
 
 
 .logo h1 {
@@ -90,6 +96,13 @@ nav {
     gap: 30px;
     width: 50%;
 }
+.hov-menu:hover{
+    border: 1px dotted #F948B2;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #4EC5F7;
+    cursor: pointer;
+}
 
 .menu a,
 .nav-button {
@@ -98,6 +111,7 @@ nav {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
+    transition: .5s;
 }
 
 .nav-button {
@@ -134,7 +148,7 @@ nav {
 .banner-text {
 
     height: 600px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     background-image: url(images/bg-banner.png);
     background-repeat: no-repeat;
@@ -165,7 +179,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    padding: 10px 40px;
+    padding: 10px 0px;
 
 }
 
@@ -200,7 +214,7 @@ nav {
 
 
 .banner-imgs {
-    width: 50%;
+    width: 60%;
     height: 600px;
     margin: 0 auto;
     padding-right: 50px;
@@ -319,10 +333,7 @@ nav {
 
 }
 
-.arcade {
-    height: auto;
-    width: 100%;
-}
+
 
 .b-line {
     color: #534C64;
@@ -334,17 +345,27 @@ nav {
 
 .gaming-pics:hover {
     transform: scale(1.025);
+    cursor: pointer;
+    transition: .3s;
 
 }
 
 .gaming-pics {
     position: relative;
+    width: fit-content;
+    overflow: hidden;
 }
+.arcade {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
 
 .hov-content {
     position: absolute;
     width: 100%;
-    height: 85%;
+    height:87%;
     border-radius: 16px;
     top: 0;
     left: 0;
@@ -356,12 +377,14 @@ nav {
     opacity: 0;
     transition: .6;
     cursor: pointer;
-    border: 2px solid #F948B2;
+    border: 3px solid #f003a5;
 
 }
 
 .hov-content:hover {
     opacity: 1;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 .hov-content h2 {
@@ -373,9 +396,9 @@ nav {
 .player {
     font-size: 1.8rem;
     font-weight: 700;
-    color: black;
+    color: rgb(231, 121, 121);
     background-color: #ebe3e3;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 50%;
 }
 
